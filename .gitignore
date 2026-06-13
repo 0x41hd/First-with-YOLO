@@ -1,0 +1,29 @@
+```text
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IPYNB Checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments (Local)
+.venv/
+venv/
+env/
+
+# OS specific files (Windows/Mac)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Large Pre-trained Models
+models/
+*.pt
+*.pth
+
+# Generated Outputs (Keep raw inputs, ignore processed detections)
+image/*_detect.jpg
+image/*_dete.jpg
+video/*_detev*
